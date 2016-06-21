@@ -1,0 +1,69 @@
+/**
+ * Breakpoints for JavaScript. Works with the Deloitte Digital SCSS @bp mixin
+ *
+ * @version 1.0.0
+ * @copyright 2012-2014 Deloitte Digital Australia - http://www.deloittedigital.com/au
+ * @author Deloitte Digital Australia deloittedigital@deloitte.com.au
+ * @license BSD 3-Clause (http://opensource.org/licenses/BSD-3-Clause)
+ */
+body {
+  background-color: #252830;
+  color: white; }
+
+p, h1, h2, h3, h4, span, a {
+  font-family: 'Open Sans', sans-serif; }
+
+.splash-container {
+  height: 700px;
+  color: white;
+  margin: 0;
+  display: table;
+  width: 100%;
+  background-image: url("../img/beer-kegs-background.jpg");
+  background-size: cover; }
+  @media (max-width: 63.9375em) {
+    .splash-container {
+      height: 300px; } }
+  .splash-container .splash {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center; }
+    .splash-container .splash h1 {
+      margin: 0;
+      padding: 0;
+      font-size: 3em; }
+    .splash-container .splash p {
+      font-size: 2em;
+      font-weight: 300;
+      color: rgba(255, 255, 255, 0.8); }
+  .splash-container .splash-inner {
+    border-radius: 50px;
+    width: 50%;
+    margin: auto;
+    padding: 30px; }
+    @media (max-width: 63.9375em) {
+      .splash-container .splash-inner {
+        width: 90%;
+        padding: 10px; } }
+
+.main {
+  margin: 10px; }
+  .main .col-md-4 {
+    padding: 10px; }
+  .main h2, .main h3 {
+    display: block;
+    text-align: center; }
+  .main p {
+    font-size: 1.25em; }
+  .main i {
+    display: block;
+    text-align: center; }
+  .main h3 {
+    color: rgba(255, 255, 255, 0.8);
+    font-weight: 300; }
+  .main .fa-bar-chart {
+    color: #1bc98e; }
+  .main .fa-dollar {
+    color: #e4d836; }
+  .main .fa-users {
+    color: #9f86ff; }

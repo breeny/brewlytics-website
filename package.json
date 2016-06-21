@@ -1,0 +1,30 @@
+{
+  "name": "brewlytics-website",
+  "version": "1.0.0",
+  "description": "Brewlytics public facing website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://breeny@github.com/breeny/brewlytics-website.git"
+  },
+  "author": "Andrew Breen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/breeny/brewlytics-website/issues"
+  },
+  "homepage": "https://github.com/breeny/brewlytics-website#readme",
+  "devDependencies": {
+    "bootstrap": "^3.3.6",
+    "ddbreakpoints": "^1.0.4",
+    "gulp": "^3.9.1",
+    "gulp-print": "^2.0.1",
+    "gulp-sass": "^2.3.2",
+    "gulp-sourcemaps": "^1.6.0"
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.6"
+  }
+}

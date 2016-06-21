@@ -1,0 +1,103 @@
+// Landing page theme
+$dark-background : #252830;
+// $dark-background-transparent : #3f3f3f50;
+$white : white;
+$accent-green: #1bc98e;
+$accent-purple: #9f86ff;
+$accent-red: #e64759;
+$accent-yellow: #e4d836;
+
+$font-primary: white;
+$font-primary-faded: rgba(255, 255, 255, .8);
+
+body {
+  background-color: $dark-background;
+  color: $font-primary;
+}
+
+p, h1, h2, h3, h4, span, a {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.splash-container {
+  height: 700px;
+  color: $white;
+  margin: 0;
+  display: table;
+  width: 100%;
+  background-image: url("../img/beer-kegs-background.jpg");
+  background-size: cover;
+
+  @include bp(0, 'm') {
+    height: 300px;
+  }
+
+  .splash {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    h1 {
+      margin: 0;
+      padding: 0;
+      font-size: 3em;
+    }
+    p {
+      font-size: 2em;
+      font-weight: 300;
+      color: $font-primary-faded;
+    }
+  }
+
+  .splash-inner {
+    border-radius: 50px;
+    width: 50%;
+    margin: auto;
+    padding: 30px;
+
+
+    @include bp(0, 'm') {
+      width: 90%;
+      padding: 10px;
+    }
+  }
+}
+
+.main {
+
+  margin: 10px;
+
+  .col-md-4 {
+    padding: 10px;
+  }
+
+  h2, h3 {
+    display: block;
+    text-align: center;
+  }
+
+  p {
+    font-size: 1.25em;
+  }
+
+  i {
+    display: block;
+    text-align: center;
+  }
+
+  h3 {
+    color: $font-primary-faded;
+    font-weight: 300;
+  }
+
+  .fa-bar-chart {
+    color: $accent-green;
+  }
+
+  .fa-dollar {
+    color: $accent-yellow;
+  }
+
+  .fa-users {
+    color: $accent-purple;
+  }
+}
